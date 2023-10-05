@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    letter-spacing: 0! important;
+}
+
+/* header part */
+
+.white-color{
+    color: white;
+}
+.main-class{
+    background-color: rgb(31, 31, 31);
+}
+.header-part{
+    height: 50px;
+}
+.netflix-logo{
+    width: 190px;
+    height: 100%;
+}
+.netflix-logo > img{
+    width: 100%;
+    height: 100%;
+}
+
+/* language and sign in part */
+
+.lan-sign{
+    width: 250px;
+    height: 50px;
+}
+.lan-part{
+    width: 105px;
+    height: 45px;
+    font-size:18px;
+    color: white;
+    border-radius: 3px;
+    border-color: white;
+}
+.signin{
+    width:103px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+}
+
+.first-view-part{
+    height: 100vh;
+    background-image:radial-gradient(transparent, rgba(0, 0, 0, 0.852) 80%, rgba(2, 2, 2, 0.205) 1000%),  url(/images/IN-en-20221228-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.netflix-title{
+    color: white;
+    height: 500px;
+}
+.ready-to-watch{
+    font-size: 18px;
+}
+.email_add{
+    width: 100%;
+    height: 65px;
+    outline: none;
+}
+.email-search{
+    width: 70%;
+    height: 100%;
+    border-radius: 3px;
+}
+.get-button{
+    width: 30%;
+    height: 100%;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+}
+
+/* tv part */
+
+.second-view-part{
+    height: 60vh;
+}
+.enjoy-on{
+    width: 45%;
+    height: 40%;
+}
+.tv-part{  
+    position: relative;
+    width: 48%;
+    height: 85%;
+}
+.tv-part > img{
+    position: absolute;
+    width: 100%;
+    height: 350px;
+}
+.tv-part > video{
+    position: absolute;
+    margin-left: 13%;
+    width: 75%;
+    height: 85%;
+}
+
+/* pc part */
+
+.pc-part{
+    position: relative;
+    width: 48%;
+    height: 85%;
+}
+.pc-part > img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.pc-part > video{
+    position: absolute;
+    margin-left: 18%;
+    width: 63%;
+    height: 70%;
+}
+
+
+/* mobile part */
+
+.enjoy-text-third{
+    width: 57%;
+}
+.mobile-part{
+    position: relative;
+    width: 40%;
+    height: 80%;
+}
+.mobile-part > img{
+    width: 100%;
+    height: 100%;
+}
+.stranger-things{
+    position: absolute;
+    top: 250px;
+    left: 80px;
+    width: 63%;
+    height: 23%;
+    border-radius: 8px;
+
+}
+.stranger-things > img {
+    width: 23%;
+    height: 100%;
+}
+.download{
+    color: blue;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 0;
+}
+.icon-add{
+    width: 20px;
+    height: 20px;
+    color: white;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+/* children part */
+
+
+.enjoy-children{
+    width: 50%;
+    height: 40%;
+    margin-top: 90px;
+}
+
+/* question and answer part */
+
+.ans-ques{
+    background-color: rgb(31, 31, 31);
+}
+.freq-ask{
+    width: 85%;
+    height:100%;
+}
+.question-btn{
+    width: 100%;
+    height: 50px; 
+}
+.what-btn{
+    width: 100%;
+}
+.ask-question{
+    height: 1000px;
+}
+
+/* footer part */
+
+.footer-top-a{
+    color: #737373;
+    text-decoration: none;
+}
+.footer-link{
+    font-size: 11px;
+    max-width: 900px;
+    /* margin-left: 20px; */
+    margin-top: 25px;
+    height: 130px;
+}
+.list-item{
+    list-style: none;
+}
+.footer-size{
+    font-size:13px;
+}
+.lang-part{
+    width: 105px;
+    height: 45px;
+    font-size:18px;
+    color: #737373;
+    border-radius: 3px;
+    border-color: #737373;
+}
+.footer-bottom{
+    width: 90px;
+    font-size: 11px;
+    color: #737373;
+    
+}
+
+
+
+
+@media screen and (max-width:576px) {
+
+    /* header part */ 
+
+    .first-view-part{
+        height: 75vh;
+        background-image:radial-gradient(transparent, rgba(0, 0, 0, 0.852) 80%, rgba(2, 2, 2, 0.205) 1000%),  url(/images/IN-en-20221228-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .netflix-logo{
+        width: 100px;
+        height: 100%;
+    }
+    .lan-part{
+        width: 95px;
+        height: 30px;
+        font-size:15px;
+        color: white;
+        border-radius: 3px;
+        border-color: white;
+    }
+    .signin{
+        width:70px;
+        height: 30px;
+        font-size: 15px;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 3px;
+    }
+    .lan-sign{
+        width: 180px;
+        height: 50px;
+    }
+    .netflix-title{
+        color: white;
+        height: 500px;
+    }
+    .mobile-view{
+        font-size:18px;
+    }
+    .email_add{
+        width: 100%;
+        height: 50px;
+        outline: none;
+    }
+    .email-search{
+        width: 100%;
+        height: 100%;
+        border-radius: 3px;
+        font-size: 14px;
+    }
+    .get-button{
+        width: 40%;
+        height: 80%;
+        background-color: red;
+        color: white;
+        border-radius: 3px;
+        font-size: 17px;
+        margin-top: 15px;
+    }
+
+    /* tv part */
+
+    .second-view-part{
+        height: 70vh;
+    }
+
+    .enjoy-on{
+        width: 100%;
+        height: 25%;
+        margin-top: 50px;
+    }
+    .enjoy-text{
+        font-size: 25px;
+        text-align: center;
+    }
+    .tv-slogan{
+        text-align: center;
+        font-size: 18px;
+    }
+    .tv-part{  
+        position: relative;
+        width: 100%;
+        height: 60%;
+    }
+    .tv-part > img{
+        position: absolute;
+        width: 100%;
+        height: 250px;
+    }
+    .tv-part > video{
+        position: absolute;
+        margin-left: 13%;
+        width: 75%;
+        height:75%;
+    }
+
+    /* mobile part */
+
+    
+
+    .enjoy-text-third{
+        position: relative;
+        bottom: 230px;
+        width: 100%;
+    }
+    .mobile-part{
+        position: relative;
+        top: 140px;
+        width: 100%;
+        height: 55%;
+    }
+    .mobile-part > img{
+        width: 100%;
+        height: 100%;
+    }
+    .stranger-things{
+        position: absolute;
+        top:180px;
+        width: 70%;
+        height: 28%;
+        left: 52px;
+        border-radius: 8px;
+    }
+    .stranger-things > img {
+        width: 20%;
+        height: 100%;
+    }
+    .download{
+     color: blue;
+    }
+    .icon{
+        width: 20px;
+        height: 20px;
+        color: white;
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: 0;
+    }
+
+    /* pc part */
+
+    .pc-part{
+        position: relative;
+        width: 95%;
+        height: 55%;
+        left: 8px;
+    }
+
+    /* children part */
+
+    .enjoy-children{
+        position: relative;
+        bottom: 330px;
+        width: 100%;
+    }
+    .children-part{
+        position: relative;
+        top: 170px;
+    }
+
+    /* Frequently asked question part */
+
+    .question-view-part{
+        height: 100%;
+
+    }
+
+    .ans-ques{
+        background-color: rgb(47, 46, 46);
+    }
+    .answer{
+        font-size: 15px;
+    }
+    .freq-ask{
+        width: 100%;
+        height:6%;
+        font-size: 25px;
+        
+    }
+    .question-btn{
+        font-size: 18px;
+        width: 100%;
+        height: 40px; 
+    }
+    .Frequently-ask{
+        width: 80%;
+        font-size: 25px;
+        margin-left: 35px;
+    }
+    .icon-add{
+        margin-top: 15px;
+        font-size: 25px;
+    }
+
+    /* footer part */
+
+    /* .footer-view-part{
+        height: 7vh;
+        width: 100vw;
+    } */
+    .footer-top-a{
+        font-size: 13px
+    }
+    .footer-link{
+        height: 40%;
+    }
+    .footer-size{
+        font-size:18px;
+        width: 100%;
+    }
+    .formove{
+        margin-left: 28px;
+    }
+    .jankari{
+        position: relative;
+        bottom: 301.5px;
+        left: 150px;
+
+    }
+    .Jankari{
+        position: relative;
+        bottom: 301.5px;
+        left: 150px;
+
+    }
+    .list-item{
+        width: 150px;  
+    }
+    .footer-bottom{
+        font-size: 13px;
+    }
+}
